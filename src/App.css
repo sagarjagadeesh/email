@@ -1,0 +1,100 @@
+.email {
+  padding: 3rem 5rem 0 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-container{
+  display: flex;
+  border-radius: 1rem;
+  flex-direction: column;
+  width: 50%;
+}
+
+.part-1 {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.part-2 {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-list {
+  width: 50%;
+}
+
+.form-sub-container{
+  padding: 0.8rem 0;
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+}
+
+.sub-text{
+  color: var(--highlight-secondary);
+  padding-bottom: .5rem;
+  font-size: 1.2rem;
+}
+
+.input{
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  color: black;
+  padding: 0 1rem;
+}
+
+.add-btn{
+  height: 40px;
+  width: 130px;
+  background-color: #52a7dc;
+  color: white;
+  border: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #52a7dc;
+  outline: none !important;
+}
+
+thead,
+tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+tbody {
+  display: block;
+}
+
+td {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-top: 0rem solid !important;
+  font-size: 14px;
+  color: black;
+  font-weight: normal;
+}
+
+/*Use the following to make sure cols align correctly*/
+table,
+tr,
+th,
+td {
+  border: 0.1rem solid #ccc;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+.table>thead>tr>th {
+    vertical-align: bottom;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
